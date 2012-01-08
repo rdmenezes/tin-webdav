@@ -19,12 +19,13 @@ public:
 	Communication(string addr, string port);
 	virtual ~Communication();
 protected:
-	int connect();
-	void disconnect(int sock);
+	void connectMe();
+	void disconnectMe();
 	string sendAndWaitForReply(string message);
 	string address;
 	string port;
 	RequestHeader *reqHeader;
+	int sock;
 };
 
 #endif /* COMMUNICATION_H_ */

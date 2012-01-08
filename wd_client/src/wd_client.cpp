@@ -16,7 +16,7 @@ int main() {
 	programLogic->onStart();
 	string arg1, arg2;
 	int x = 0;
-	while (x > 5 || x < 1) {
+	while (x > 7 || x < 1) {
 		cout << "*******************MENU********************" << endl;
 		cout << "1. Wyswietl lokaln¹ liste plikow " << endl;
 		cout << "2. Wyswietl liste plikow na serwerze" << endl;
