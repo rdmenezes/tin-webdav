@@ -163,7 +163,7 @@ string ResponseHeader::getType(){
 
 int ResponseHeader::getLenght(){
 	if(getResponseCode() != 200)
-		return NULL;
+		return -1;
 	size_t found1 = header.find("Content-Lenght");
 	size_t found2 = header.find("\n", found1);
 	

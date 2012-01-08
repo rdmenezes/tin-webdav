@@ -52,20 +52,15 @@ bool LocalBase::deleteFile(string file) {
 }
 
 bool LocalBase::saveFilesList() {
-	//TODO
-	//saves current map to file
-	//false if we cannot write to the file
+	//TODO saves current map to file false if we cannot write to the file
 }
 
 bool LocalBase::saveFileToHDD(string fileName, string fileContent) {
-	//TODO
-	//save file to HDD
-	//false if we cannot write to the file
+	//TODO save file to HDD false if we cannot write to the file
 }
 
 string LocalBase::getFileContent(string fileName) {
-	//TODO
-	//get file content and put it back as string
+	//TODO get file content and put it back as string
 }
 
 LocalBase::~LocalBase() {
